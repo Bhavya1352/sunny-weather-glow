@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, TrendingUp, Cloud, Sun, CloudRain } from 'lucide-react';
+import { Calendar, TrendingUp, Cloud, Sun, CloudRain, Snowflake } from 'lucide-react';
 
 const Forecast = () => {
   const forecastData = [

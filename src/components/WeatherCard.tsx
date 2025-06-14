@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Cloud, Sun, CloudRain, Snow, Wind, Droplets, Thermometer, Eye } from 'lucide-react';
+import { Cloud, Sun, CloudRain, Snowflake, Wind, Droplets, Thermometer, Eye } from 'lucide-react';
 
 interface WeatherCardProps {
   temperature: number;
@@ -29,7 +29,7 @@ const WeatherCard: React.FC<WeatherCardProps> = ({
     } else if (lowerCondition.includes('rain')) {
       return CloudRain;
     } else if (lowerCondition.includes('snow')) {
-      return Snow;
+      return Snowflake;
     } else {
       return Cloud;
     }
